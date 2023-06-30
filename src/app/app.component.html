@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <td>Id</td>
+    <td>UserId</td>
+    <td>Title</td>
+    <td>Status</td>
+  </tr>
+  <tr *ngFor="let datas of httpData">
+    <td>{{datas.id}}</td>
+    <td>{{datas.userId}}</td>
+    <td>{{datas.title}}</td>
+    <td>{{datas.completed}}</td>
+  </tr>
+</table>
